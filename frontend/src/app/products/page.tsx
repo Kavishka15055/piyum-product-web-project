@@ -10,7 +10,7 @@ const mockProducts: Product[] = [
     id: 1,
     name: "American Oyster",
     description: "Fresh American Oyster mushrooms with delicate flavor and velvety texture. Perfect for stir-fries and soups.",
-    imageUrl: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800",
+    imageUrl: "/images/products/american-oyster.jpg",
     pricePerKg: 1200,
     storageInstructions: "Store in refrigerator at 4°C. Consume within 5 days.",
     nutritionalInfo: "Rich in protein, fiber, and antioxidants. Low in calories and fat."
@@ -19,7 +19,7 @@ const mockProducts: Product[] = [
     id: 2,
     name: "Abalone Mushroom",
     description: "Premium Abalone mushrooms known for their meaty texture and rich umami flavor.",
-    imageUrl: "https://images.unsplash.com/photo-1626070520471-ec2b2e1d0d29?auto=format&fit=crop&w=800",
+    imageUrl: "/images/products/Abalone.jpg",
     pricePerKg: 1500,
     storageInstructions: "Keep in paper bag in refrigerator. Best used within 3 days.",
     nutritionalInfo: "High in vitamin D, B vitamins, and selenium."
@@ -28,7 +28,7 @@ const mockProducts: Product[] = [
     id: 3,
     name: "Dry Mushroom",
     description: "Sun-dried mushrooms with concentrated flavor. Ideal for long-term storage and intense dishes.",
-    imageUrl: "https://images.unsplash.com/photo-1564073239425-2c987f2d61be?auto=format&fit=crop&w=800",
+    imageUrl: "/images/products/dry-mushroom.jpg",
     pricePerKg: 2500,
     storageInstructions: "Store in airtight container in cool, dry place. Lasts up to 1 year.",
     nutritionalInfo: "Concentrated nutrients, rich in protein and minerals."
