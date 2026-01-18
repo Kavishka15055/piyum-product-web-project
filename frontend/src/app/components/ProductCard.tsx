@@ -24,9 +24,8 @@ export default function ProductCard({ product, onSelect }: ProductCardProps) {
         <div className="flex justify-between items-center mb-4">
           <div>
             <span className="text-2xl font-bold text-green-700">
-              LKR {product.pricePerKg}
+              LKR {product.pricePerKg} <span className="text-sm font-normal text-gray-500">/ kg</span>
             </span>
-            <span className="text-gray-500 text-sm"> /kg</span>
           </div>
           <span className="bg-green-100 text-green-800 text-xs font-semibold px-3 py-1 rounded-full">
             In Stock

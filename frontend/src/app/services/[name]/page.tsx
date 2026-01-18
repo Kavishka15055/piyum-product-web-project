@@ -1,5 +1,6 @@
 'use client';
 
+import { use } from 'react';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowLeft, Phone, Mail, MapPin } from 'lucide-react';
@@ -39,7 +40,25 @@ const serviceDetails: Record<string, any> = {
       'Arpico Supercentre - Kurunegala',
       'Arpico Supercentre - Jaffna'
     ],
-    contactPerson: 'Ms. Nimali Fernando',
+    contactPerson: 'Mr. Nimali Fernando',
+    contactNumber: '+94 77 345 6789',
+    email: 'wholesale@piyumproduct.com',
+    minimumOrder: '50kg per outlet',
+    deliverySchedule: 'Twice weekly'
+  },
+  'keells-super-mushroom-supplier': {
+    title: 'Keells Super Mushroom Supplier',
+    description: 'Official mushroom supplier to Keells Supercentre chain, ensuring consistent quality across all outlets.',
+    detailedDescription: 'We maintain strict quality control measures and supply chain management to ensure fresh mushrooms are available at all Keells locations nationwide.',
+    outlets: [
+      'Keells Supercentre - Rajagiriya',
+      'Keells Supercentre - Nugegoda',
+      'Keells Supercentre - Kandy',
+      'Keells Supercentre - Galle',
+      'Keells Supercentre - Kurunegala',
+      'Keells Supercentre - Jaffna'
+    ],
+    contactPerson: 'Mr. Nimali Fernando',
     contactNumber: '+94 77 345 6789',
     email: 'wholesale@piyumproduct.com',
     minimumOrder: '50kg per outlet',
@@ -48,8 +67,9 @@ const serviceDetails: Record<string, any> = {
   // Add other services similarly
 };
 
-export default function ServiceDetailPage({ params }: { params: { name: string } }) {
-  const service = serviceDetails[params.name];
+export default function ServiceDetailPage({ params }: { params: Promise<{ name: string }> }) {
+  const { name } = use(params);
+  const service = serviceDetails[name];
   
   if (!service) {
     notFound();

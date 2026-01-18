@@ -109,7 +109,7 @@ export default function ContactSection() {
             <div className="space-y-6 mb-8">
               <div className="flex items-start">
                 <div className="bg-white p-3 rounded-lg mr-4">
-                  <Phone className="text-green-600" size={24} />
+                  <MapPin className="text-green-600" size={24} />
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-800 mb-1">Phone Numbers</h4>

@@ -14,7 +14,7 @@ export default function HeroSection() {
       />
       <div className="relative container-custom h-full flex items-center px-4">
         <div className="text-white max-w-2xl">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
+          <h1 className="text-3xl md:text-6xl font-bold mb-6">
             Premium Quality Mushrooms from{' '}
             <span className="text-orange-400">PIYUM PRODUCT</span>
           </h1>

@@ -82,9 +82,9 @@ export default function ServicesSection() {
       </div>
 
       <div className="mt-12 text-center">
-        <div className="inline-flex items-center bg-green-50 rounded-full px-6 py-3">
-          <Truck className="text-green-600 mr-3" size={24} />
-          <span className="text-green-800 font-medium">
+        <div className="inline-flex flex-wrap justify-center items-center bg-green-50 rounded-full px-6 py-3 gap-2">
+          <Truck className="text-green-600 mr-1" size={24} />
+          <span className="text-green-800 font-medium text-sm md:text-base">
             Island-wide delivery available • Minimum order: 5kg • Bulk discounts available
           </span>
         </div>

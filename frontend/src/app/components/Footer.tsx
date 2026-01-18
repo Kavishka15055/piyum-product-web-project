@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Footer() {
   return (
     <footer className="bg-green-900 text-white">
-      <div className="container-custom py-12">
+      <div className="container-custom py-12 px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-2xl font-bold mb-4">PIYUM PRODUCT</h3>
