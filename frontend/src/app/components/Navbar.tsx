@@ -62,8 +62,8 @@ export default function Navbar() {
     // Desktop: "hover:text-green-700 transition"
     // Mobile: "hover:text-green-700 transition px-2 py-1 rounded-md hover:bg-green-50"
     
-    const activeClasses = "text-green-700 font-bold";
-    const inactiveClasses = "hover:text-green-700 text-gray-600"; 
+    const activeClasses = "text-blue-700 font-bold";
+    const inactiveClasses = "hover:text-blue-700 text-gray-600"; 
     // Note: Original text color wasn't explicitly set for inactive, likely inherited. 
     // Setting text-gray-600 for inactive to make the active green pop more, or just keep default 'text-black' equivalent?
     // Let's stick closer to original but add active weight/color.
