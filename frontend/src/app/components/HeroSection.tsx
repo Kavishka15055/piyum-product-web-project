@@ -5,11 +5,11 @@ import { ArrowRight } from 'lucide-react';
 
 export default function HeroSection() {
   return (
-    <div className="relative h-96 md:h-[700px] bg-linear-to-r from-green-900/90 to-green-800/90">
+    <div className="relative h-96 md:h-[700px] bg-linear-to-r from-sky-600  ">
       <div 
-        className="absolute inset-0 bg-cover bg-center opacity-20"
+        className="absolute inset-0 bg-cover bg-center opacity-50"
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1583141230851-d0d8534b52c5?auto=format&fit=crop&w=2070")',
+          backgroundImage: 'url("/images/hero-bg.jpg")',
         }}
       />
       <div className="relative container-custom h-full flex items-center px-4">
