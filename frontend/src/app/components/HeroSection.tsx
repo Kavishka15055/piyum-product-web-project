@@ -16,7 +16,7 @@ export default function HeroSection() {
         <div className="text-white max-w-2xl">
           <h1 className="text-3xl md:text-6xl font-bold mb-6">
             Premium Quality Mushrooms from{' '}
-            <span className="text-orange-400">PIYUM PRODUCT</span>
+            <span className="text-yellow-300">PIYUM PRODUCT</span>
           </h1>
           <p className="text-xl mb-8 text-gray-200">
             Supplying fresh and organic mushrooms to hotels, supermarkets, and restaurants across the country. 
